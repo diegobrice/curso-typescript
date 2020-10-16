@@ -21,3 +21,5 @@ function sayHello(name: string): void {
 
 sayHello(username);
 console.log(phone);
+
+let usuario = "DIEGO";

@@ -12,3 +12,4 @@ function sayHello(name) {
 }
 sayHello(username);
 console.log(phone);
+var usuario = "DIEGO";

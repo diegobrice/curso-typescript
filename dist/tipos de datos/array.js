@@ -1,0 +1,10 @@
+"use strict";
+var frutas = ["naranja", "platano", "fresa"];
+console.log(frutas);
+var arregloVariado = [2, false, { edad: 12 }, "hola"];
+arregloVariado = [1, 2, 3];
+var pictures;
+pictures = ["landscape", "vacations"];
+console.log(pictures, pictures.length);
+pictures.unshift("world");
+console.log(pictures, pictures.length);
