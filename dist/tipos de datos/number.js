@@ -1,15 +1,20 @@
 "use strict";
 // tipo:number
 // numeros, hexadecimales, binarios, octales
-var phone;
+let phone;
 phone = 965678538;
-var isActive = true;
-var username = "Diego";
-var person = "\n  Person:\n  username: " + username + ",\n  phone: " + phone + ",\n  status: " + isActive + "\n";
+let isActive = true;
+let username = "Diego";
+let person = `
+  Person:
+  username: ${username},
+  phone: ${phone},
+  status: ${isActive}
+`;
 console.log(person);
 function sayHello(name) {
-    console.log("Hola " + name);
+    console.log(`Hola ${name}`);
 }
 sayHello(username);
 console.log(phone);
-var usuario = "DIEGO";
+let usuario = "DIEGO";

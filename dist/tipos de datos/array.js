@@ -1,9 +1,9 @@
 "use strict";
-var frutas = ["naranja", "platano", "fresa"];
+let frutas = ["naranja", "platano", "fresa"];
 console.log(frutas);
-var arregloVariado = [2, false, { edad: 12 }, "hola"];
+let arregloVariado = [2, false, { edad: 12 }, "hola"];
 arregloVariado = [1, 2, 3];
-var pictures;
+let pictures;
 pictures = ["landscape", "vacations"];
 console.log(pictures, pictures.length);
 pictures.unshift("world");

@@ -1,3 +1,3 @@
 "use strict";
-var nombre = "Diego Briceño";
+let nombre = "Diego Briceño";
 console.log("Hello " + nombre);

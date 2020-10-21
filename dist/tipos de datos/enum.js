@@ -6,10 +6,10 @@ var Roles;
     Roles[Roles["Proveedor"] = 3] = "Proveedor";
     Roles[Roles["Admin"] = 4] = "Admin";
 })(Roles || (Roles = {}));
-var Diego = Roles.Admin;
-var Alonso = Roles.Usuario;
-var Bryce = Roles.Callcenter;
-var Postigo = Roles.Proveedor;
+const Diego = Roles.Admin;
+const Alonso = Roles.Usuario;
+const Bryce = Roles.Callcenter;
+const Postigo = Roles.Proveedor;
 console.log(Diego, Alonso, Bryce, Postigo);
 var Country;
 (function (Country) {
@@ -17,7 +17,7 @@ var Country;
     Country["Colombia"] = "COL";
     Country["Mexico"] = "MEX";
 })(Country || (Country = {}));
-var persona = {
+let persona = {
     name: "Diego Briceño",
     country: Country.Peru,
 };

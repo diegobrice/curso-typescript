@@ -1,8 +1,8 @@
 "use strict";
-var idUser;
+let idUser;
 idUser = 20;
 idUser = "3";
-var usuarios = [
+let usuarios = [
     {
         id: 1,
         name: "Diego",
@@ -17,19 +17,19 @@ var usuarios = [
     },
 ];
 function getName(id) {
-    var res = usuarios.filter(function (e) { return e.id == id; });
+    const res = usuarios.filter((e) => e.id == id);
     return res[0];
 }
 console.log(getName(1));
 console.log(getName("2"));
-var smallPicture = "500x500";
-var nombrePer;
+let smallPicture = "500x500";
+let nombrePer;
 nombrePer = "Diego";
 // let message: boolean = (<string>nombrePer).length > 3;
-var message = nombrePer.length > 3;
+let message = nombrePer.length > 3;
 console.log(message);
 function sayHello(name, age) {
-    return { name: name, age: age == undefined ? "Sin edad" : age };
+    return { name, age: age == undefined ? "Sin edad" : age };
 }
 console.log(sayHello("Diego"));
 console.log(sayHello("Alonso", 29));

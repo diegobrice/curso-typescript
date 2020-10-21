@@ -1,10 +1,10 @@
 "use strict";
-var user;
+let user;
 user = [1, "diegobrice"];
 console.log(user);
 console.log(user[0]);
 console.log(user[1].length);
-var arrTuplas;
+let arrTuplas;
 arrTuplas = [];
 arrTuplas.push([1, "diego"]);
 arrTuplas.push([2, "alonso"]);
